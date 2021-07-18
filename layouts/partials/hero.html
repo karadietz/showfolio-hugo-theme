@@ -29,8 +29,11 @@
     </div>
     <div class="relative">{{ .Site.Params.homepage.tagline }}</div>
   </div>
-  <p class="font-light text-center max-w-sm mb-8">
+  <p class="font-light text-center max-w-md mb-5">
     {{ .Site.Params.homepage.description }}
+  </p>
+  <p class="font-light text-center max-w-md mb-8">
+    {{ .Site.Params.homepage.description2 }}
   </p>
 
   {{ with .Site.Params.homepage.contact }}
